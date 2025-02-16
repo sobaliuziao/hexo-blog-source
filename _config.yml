@@ -14,6 +14,7 @@ timezone: ''
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://sobaliuziao.github.io
+# url: http://47.83.2.226/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -104,14 +105,18 @@ deploy:
   type: git
   repo: https://github.com/sobaliuziao/sobaliuziao.github.io.git
   branch: gh-pages
+# deploy:
+#   type: git
+#   repo: root@47.83.2.226:/var/repo/blog.git
+#   branch: master
 
 math:
   engine: katex
   katex:
-    css: https://fastly.jsdelivr.net/npm/katex@0.10.0/dist/katex.min.css
-    js: https://fastly.jsdelivr.net/npm/katex@0.10.0/dist/katex.min.js
-    # css: /css/katex.min.css
-    # js: /js/katex.min.js
+    # css: https://fastly.jsdelivr.net/npm/katex@0.10.0/dist/katex.min.css
+    # js: https://fastly.jsdelivr.net/npm/katex@0.10.0/dist/katex.min.js
+    css: /css/katex.min.css
+    js: /js/katex.min.js
     config:
       # KaTeX config
       throwOnError: false
