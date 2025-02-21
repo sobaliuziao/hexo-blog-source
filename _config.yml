@@ -121,3 +121,6 @@ math:
       # KaTeX config
       throwOnError: false
       errorColor: "#cc0000"
+
+encrypt:
+  enable: true
