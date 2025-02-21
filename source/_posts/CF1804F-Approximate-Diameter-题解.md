@@ -1,15 +1,16 @@
 ---
 title: CF1804F Approximate Diameter 题解
-date: 2023-06-29 15:44:57
 tags:
-- 题解
-- Codeforces
-- 思维
-- 二分
-- BFS
+  - 题解
+  - Codeforces
+  - 思维
+  - 二分
+  - BFS
 categories:
-- 题解
-- 二分
+  - 题解
+  - 二分
+abbrlink: 192c7adb
+date: 2023-06-29 15:44:57
 ---
 
 ## Description

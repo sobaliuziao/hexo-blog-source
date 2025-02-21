@@ -1,15 +1,16 @@
 ---
-title: P7986 [USACO21DEC] HILO P 题解
-date: 2023-08-21 21:49:04
+title: 'P7986 [USACO21DEC] HILO P 题解'
 tags:
-- 题解
-- 洛谷
-- 数学
-- 期望
+  - 题解
+  - 洛谷
+  - 数学
+  - 期望
 categories:
-- 题解
-- 数学
-- 期望
+  - 题解
+  - 数学
+  - 期望
+abbrlink: 369dc16c
+date: 2023-08-21 21:49:04
 ---
 
 ## Description

@@ -1,13 +1,14 @@
 ---
 title: CF1804D Accommodation 题解
-date: 2023-06-27 10:17:00
 tags:
-- 题解
-- Codeforces
-- 贪心
+  - 题解
+  - Codeforces
+  - 贪心
 categories:
-- 题解
-- 贪心
+  - 题解
+  - 贪心
+abbrlink: dd4d314d
+date: 2023-06-27 10:17:00
 ---
 
 ## Description

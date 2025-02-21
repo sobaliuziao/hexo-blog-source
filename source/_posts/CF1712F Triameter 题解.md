@@ -1,17 +1,18 @@
 ---
 title: CF1712F Triameter 题解
-date: 2023-08-31 19:19:09
 tag:
-- 题解
-- Codeforces
-- 图论
-- DP
-- 树形DP
-- 长链剖分
+  - 题解
+  - Codeforces
+  - 图论
+  - DP
+  - 树形DP
+  - 长链剖分
 categories:
-- DP
-- 树形DP
-- 长链剖分
+  - DP
+  - 树形DP
+  - 长链剖分
+abbrlink: a479195a
+date: 2023-08-31 19:19:09
 ---
 
 ## Description

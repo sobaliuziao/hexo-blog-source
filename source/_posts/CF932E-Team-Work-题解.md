@@ -1,15 +1,16 @@
 ---
 title: CF932E Team Work 题解
-date: 2023-08-16 20:05:59
 tags:
-- 题解
-- Codeforces
-- 数学
-- 斯特林数
+  - 题解
+  - Codeforces
+  - 数学
+  - 斯特林数
 categories:
-- 题解
-- 数学
-- 斯特林数
+  - 题解
+  - 数学
+  - 斯特林数
+abbrlink: 31dc8143
+date: 2023-08-16 20:05:59
 ---
 
 ## Description

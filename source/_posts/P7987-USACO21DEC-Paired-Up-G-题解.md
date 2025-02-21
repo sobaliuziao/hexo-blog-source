@@ -1,13 +1,14 @@
 ---
-title: P7987 [USACO21DEC] Paired Up G 题解
-date: 2023-08-22 20:29:34
+title: 'P7987 [USACO21DEC] Paired Up G 题解'
 tags:
-- 题解
-- USACO
-- DP
+  - 题解
+  - USACO
+  - DP
 categories:
-- 题解
-- DP
+  - 题解
+  - DP
+abbrlink: a6cdafce
+date: 2023-08-22 20:29:34
 ---
 
 ## Description

@@ -1,12 +1,13 @@
 ---
 title: Trie学习笔记
-date: 2020-12-20 21:57:26
 tags:
-- 学习笔记
-- Trie
+  - 学习笔记
+  - Trie
 categories:
-- 学习笔记
-- Trie
+  - 学习笔记
+  - Trie
+abbrlink: 18af0626
+date: 2020-12-20 21:57:26
 ---
 # Trie树
 

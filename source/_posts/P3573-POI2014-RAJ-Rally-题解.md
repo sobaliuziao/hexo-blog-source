@@ -1,15 +1,16 @@
 ---
-title: P3573 [POI2014] RAJ-Rally 题解
-date: 2023-07-07 17:27:37
+title: 'P3573 [POI2014] RAJ-Rally 题解'
 tags:
-- 题解
-- 洛谷
-- 图论
-- 拓扑排序
+  - 题解
+  - 洛谷
+  - 图论
+  - 拓扑排序
 categories:
-- 题解
-- 图论
-- 拓扑排序
+  - 题解
+  - 图论
+  - 拓扑排序
+abbrlink: 13473bdd
+date: 2023-07-07 17:27:37
 ---
 
 ## Description

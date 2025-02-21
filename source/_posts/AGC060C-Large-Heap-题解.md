@@ -1,16 +1,17 @@
 ---
 title: AGC060C Large Heap 题解
-date: 2023-08-25 20:23:41
 tags:
-- 题解
-- AtCoder
-- 数学
-- 概率论
-- DP
+  - 题解
+  - AtCoder
+  - 数学
+  - 概率论
+  - DP
 categories:
-- 题解
-- 数学
-- 概率论
+  - 题解
+  - 数学
+  - 概率论
+abbrlink: fb09da6c
+date: 2023-08-25 20:23:41
 ---
 
 ## Description

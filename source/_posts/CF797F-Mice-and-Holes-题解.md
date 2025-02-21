@@ -1,14 +1,15 @@
 ---
 title: CF797F Mice and Holes 题解
-date: 2023-09-01 20:38:12
 tags:
-- 题解
-- Codeforces
-- 贪心
-- 反悔贪心
+  - 题解
+  - Codeforces
+  - 贪心
+  - 反悔贪心
 categories:
-- 贪心
-- 反悔贪心
+  - 贪心
+  - 反悔贪心
+abbrlink: 42791d4c
+date: 2023-09-01 20:38:12
 ---
 
 ## Description

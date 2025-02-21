@@ -1,14 +1,15 @@
 ---
-title: P9189 [USACO23OPEN] Custodial Cleanup G 题解
-date: 2023-09-07 22:38:55
+title: 'P9189 [USACO23OPEN] Custodial Cleanup G 题解'
 tags:
-- 题解
-- 搜索
-- bfs
-- USACO
+  - 题解
+  - 搜索
+  - bfs
+  - USACO
 categories:
-- 搜索
-- bfs
+  - 搜索
+  - bfs
+abbrlink: 449c459f
+date: 2023-09-07 22:38:55
 ---
 
 ## Description
