@@ -13,7 +13,6 @@ categories:
 abbrlink: fb09da6c
 date: 2023-08-25 20:23:41
 ---
-
 ## Description
 
 考虑 $(1,2,...,2^N-1)$ 的一个排列 $P=(P_1,P_2,...,P_{2^N-1})$。称 $P$ **像堆**当且仅当 $P_i \lt P_{2i}$ 和 $P_i \lt P_{2i+1}$ 对 $1 \le i \le 2^{N-1}-1$ 成立。

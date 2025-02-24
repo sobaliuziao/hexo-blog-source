@@ -1,0 +1,10 @@
+{
+  "templater-obsidian:template/hexo.md": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "M"
+    }
+  ]
+}
