@@ -1,0 +1,317 @@
+---
+title: 哈希学习笔记
+date: 2020-11-17 20:50:00
+---
+
+# 哈希(HASH)
+
+哈希(HASH)本质上是一种映射。
+
+## 引入1
+
+给定 $n$ 个正整数，这些正整数的值域均为 $[1,10^6)$，让你把这些数去重后按从小到大排序后输出。
+
+### 方法
+
+用一个桶来统计每一个数的次数，最后循环值域，如果次数不为 $0$，就输出即可。
+
+时间复杂度：$O(n)$，空间复杂度：$O(10^6)$。
+
+## 引入2
+
+给定 $n$ 个正整数，这些正整数的值域均为 $[1,10^9)$，让你把这些数去重后按从小到大排序后输出。
+
+---
+这题发现值域到了 $10^9$，很明显无法用桶排来做。
+
+## 方法1
+
+用STL-unique来写，时间复杂度大概为 $O(n)$，可以过。
+
+---
+
+不过大部分题目都无法用unique，就有了新的算法-哈希。
+
+## 方法2-哈希算法
+
+我们用一个函数 $H$，将一个很大的数 $x$ 变为一个可以用数组存下的数。
+
+一般都将哈希函数 $H(x)$ 定义为 $x\bmod P$（$P$为一个质数）。
+
+最后将哈希之后的数做桶排即可。
+
+## 哈希冲突
+
+我们发现如果两个数 $x,y$ 使 $H(x)=H(y)$，此时发现哈希之后冲突了，答案就错误。此时就叫**哈希冲突**、
+
+## 解决哈希冲突
+
+我们用一个链表处理 $0\sim P-1$ 的模数情况。即，将 $x$ 插入到 $H(x)$ 的链表下。
+
+每次插入时遍历 $H(x)$ 的链表，如果没有重复就插入，否则就不插入链表。
+
+## 时间复杂度
+
+$
+O(n\cdot len) \approx O(n\cdot \dfrac{n}{P})
+$
+
+$\text{当}P\approx n\text{时，}O(n\cdot \dfrac{n}{P})\approx O(n)$。
+
+此时的时间复杂度就十分优秀了。
+
+## 模板代码
+
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+const int MOD = 999983;
+
+int n, x, ans;
+
+vector <int> G[MOD + 5];
+
+int Hash (int x) {
+  return x % MOD;
+}
+
+int insert (int x) {
+  int val = Hash(x);
+  for (int i = 0; i < G[val].size(); ++i) {
+    if (G[val][i] == x) return 0;
+  }
+  G[val].push_back(x);
+  return 1; 
+}
+
+int main() {
+  cin >> n;
+  for (int i = 1; i <= n; ++i) {
+    cin >> x;
+    ans += insert(x);
+  } 
+  cout << ans << endl; 
+  return 0;
+} 
+```
+
+## 例题
+
+- [P4305 [JLOI2011]不重复数字](https://www.luogu.com.cn/problem/P4305)
+
+这题定义哈希函数 $H(x)=x\bmod P$，如果过不了，别忘了考虑负数的情况。
+
+代码：
+
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+const int N = 5e4 + 5;
+const int MOD = 999983;
+
+int T, n, ans;
+int a[N];
+
+vector <int> G[MOD + 5];
+
+int Hash (int x) {
+  return (x % MOD + MOD) % MOD;
+}
+
+int insert (int x) {
+  int val = Hash(x);
+  for (int i = 0; i < G[val].size(); ++i) {
+    if (G[val][i] == x) return 0;
+  }
+  G[val].push_back(x);
+  return 1;
+}
+
+int main() {
+  cin >> T;
+  while (T--) {
+    cin >> n;
+    ans = 0;
+    for (int i = 1; i <= n; ++i) {
+      scanf("%d", &a[i]);
+    }
+    for (int i = 0; i < MOD; ++i) {
+      G[i].clear();
+    }
+    for (int i = 1; i <= n; ++i) {
+      if (insert(a[i]) == 1) {
+        cout << a[i] << " ";
+      }
+    }
+    cout << endl;
+  }
+  return 0;
+}
+```
+
+- [P1955 [NOI2015]程序自动分析](https://www.luogu.com.cn/problem/P1955)
+
+首先先看题目，看到有 $x_i=x_j$ 时，就想到了用图论的并查集来做。即，先将所有 $e=1$ 的情况中的 $(i,j)$ 合并，最后合并完再枚举 $e=0$ 的情况看是否在同一个连通块就行了。
+
+可发现数据范围中的
+
+> $1\leq i,j\leq 10^9$
+
+就知道用纯的并查集过不去。于是想到了用哈希将数的范围缩小，随后并查集维护即可。哈希函数一样是 $H(x) = x\bmod P$。时间复杂度：$O(n\cdot\alpha(n))\approx O(n) $
+
+代码：
+
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+const int N = 1e5 + 5;
+const int MOD = 990887;
+
+int T, n;
+int x[N], y[N], opt[N];
+int fa[MOD + 5];
+
+int Hash (int x) {
+  return x % MOD;
+}
+
+int find (int x) {
+  if (x == fa[x]) return x;
+  else return fa[x] = find(fa[x]);
+}
+
+void unionn (int x, int y) {
+  int fx = find(x), fy = find(y);
+  if (fx != fy) fa[fx] = fy;
+  return ;
+}
+
+int main() {
+  cin >> T;
+  while (T--) {
+    cin >> n;
+    for (int i = 0; i < MOD; ++i) {
+      fa[i] = i;
+    }
+    for (int i = 1; i <= n; ++i) {
+      cin >> x[i] >> y[i] >> opt[i];
+      if (opt[i] == 1) unionn(Hash(x[i]), Hash(y[i]));
+    }
+    bool flag = false;
+    for (int i = 1; i <= n; ++i) {
+      if (opt[i] == 0) {
+        if (find(Hash(x[i])) == find(Hash(y[i]))){
+          puts("NO");
+          flag = true;
+          break;
+        }
+      }
+    }
+    if (flag == false) puts("YES"); 
+  }
+  return 0;
+}
+```
+
+- [SP4354 TWINSNOW - Snowflakes](https://www.luogu.com.cn/problem/SP4354)
+
+样例输入(POJ)：
+
+```
+2
+1 2 3 4 5 6
+4 3 2 1 6 5
+```
+
+样例输出(POJ)：
+
+```
+Twin snowflakes found.
+```
+
+---
+
+首先看到这题，发现每个雪花是一个含有六个数的序列，我们就定义这个序列的哈希值为这些数的和 $\bmod P$ 的值，即：
+
+$$
+H(a)=\sum_{i=1}^{6}{a_i}
+$$
+
+（当然也可以是别的，比如这个序列的和加这个序列的乘积 $\bmod P$ 的值，只要与这个序列的顺序无关即可）
+
+需要注意的是，判断两个雪花是否相同时，从某个节点，顺时针和逆时针都要比较才行。
+
+代码：
+
+```cpp
+#include <iostream>
+#include <cstdio>
+#include <vector>
+#define int long long
+using namespace std;
+
+const int N = 1e5 + 5;
+const int MOD = 99991;
+
+int n;
+int a[N][20];
+
+vector <int> G[MOD + 5];
+
+int Hash (int ind) {
+  int sum = 0;
+  for (int i = 1; i <= 6; ++i) {
+    sum = (sum + a[ind][i]) % MOD;
+  }
+  return sum % MOD;
+}
+
+bool issame (int ind1, int ind2) {
+  for (int i = 1; i <= 6; ++i) {
+    for (int j = 1; j <= 6; ++j) {
+      bool flag = true;
+      for (int k = 0; k < 6; ++k) {
+        if (a[ind1][(i + k) % 6 + 1] != a[ind2][(j + k) % 6 + 1]) flag = false;
+      }
+      if (flag == true) return true;
+      flag = true;
+      for (int k = 0; k < 6; ++k) {
+        if (a[ind1][(i + k) % 6 + 1] != a[ind2][(j - k + 6) % 6 + 1]) flag = false;
+      }
+      if (flag == true) return true;
+    }
+  }
+  return false;
+}
+
+int insert (int ind) {
+  int val = Hash(ind);
+  for (int i = 0; i < G[val].size(); ++i) {
+    if (issame(G[val][i], ind)) return 1;
+  }
+  G[val].push_back(ind);
+  return 0;
+}
+
+int ans = 0;
+
+signed main() {
+  cin >> n;
+  for (int i = 1; i <= n; ++i) {
+    for (int j = 1; j <= 6; ++j) {
+      scanf("%lld", &a[i][j]);
+    } 
+    if (insert(i) == 1) {
+      puts("Twin snowflakes found.");
+      return 0;
+    }
+  }
+  puts("No two snowflakes are alike.");
+  return 0;
+}
+```
+
+## 字符串哈希
