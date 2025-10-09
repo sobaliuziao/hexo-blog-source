@@ -1,5 +1,5 @@
 ---
-title: P12445 [COTS 2025] Promet 题解
+title: 'P12445 [COTS 2025] Promet 题解'
 date: 2025-06-17 21:11:00
 ---
 

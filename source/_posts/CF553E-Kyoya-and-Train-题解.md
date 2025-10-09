@@ -1,5 +1,5 @@
 ---
-title: CF553E Kyoya and Train 题解
+title: 'CF553E Kyoya and Train 题解'
 date: 2024-08-01 21:17:00
 ---
 

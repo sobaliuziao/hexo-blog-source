@@ -1,5 +1,5 @@
 ---
-title: CF2062H Galaxy Generator 题解
+title: 'CF2062H Galaxy Generator 题解'
 date: 2025-08-13 10:53:00
 ---
 

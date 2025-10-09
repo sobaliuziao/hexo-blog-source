@@ -1,5 +1,5 @@
 ---
-title: CF2089E Black Cat Collapse 题解
+title: 'CF2089E Black Cat Collapse 题解'
 date: 2025-07-31 17:12:00
 ---
 

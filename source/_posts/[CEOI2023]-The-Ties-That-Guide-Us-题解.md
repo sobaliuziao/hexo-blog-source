@@ -1,5 +1,5 @@
 ---
-title: [CEOI2023] The Ties That Guide Us 题解
+title: '[CEOI2023] The Ties That Guide Us 题解'
 date: 2024-11-15 19:11:00
 ---
 

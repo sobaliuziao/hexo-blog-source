@@ -1,5 +1,5 @@
 ---
-title: Pjudge #21728. 【CTS Round #1 Day 1】地雷 题解
+title: 'Pjudge #21728. 【CTS Round #1 Day 1】地雷 题解'
 date: 2025-09-28 11:15:00
 ---
 

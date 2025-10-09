@@ -1,5 +1,5 @@
 ---
-title: CF1603E A Perfect Problem 题解
+title: 'CF1603E A Perfect Problem 题解'
 date: 2024-09-13 21:16:00
 ---
 

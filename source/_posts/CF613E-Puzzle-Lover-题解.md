@@ -1,5 +1,5 @@
 ---
-title: CF613E Puzzle Lover 题解
+title: 'CF613E Puzzle Lover 题解'
 date: 2024-07-27 22:09:00
 ---
 

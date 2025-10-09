@@ -1,5 +1,5 @@
 ---
-title: [AGC071A] XOR Cross Over 题解
+title: '[AGC071A] XOR Cross Over 题解'
 date: 2025-04-02 09:30:00
 ---
 

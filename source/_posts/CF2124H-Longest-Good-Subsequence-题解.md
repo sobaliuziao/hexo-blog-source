@@ -1,5 +1,5 @@
 ---
-title: CF2124H Longest Good Subsequence 题解
+title: 'CF2124H Longest Good Subsequence 题解'
 date: 2025-07-20 20:41:00
 ---
 

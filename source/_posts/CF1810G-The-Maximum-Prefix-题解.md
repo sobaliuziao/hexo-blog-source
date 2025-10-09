@@ -1,5 +1,5 @@
 ---
-title: CF1810G The Maximum Prefix 题解
+title: 'CF1810G The Maximum Prefix 题解'
 date: 2024-08-27 22:58:00
 ---
 

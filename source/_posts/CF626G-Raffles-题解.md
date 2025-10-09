@@ -1,5 +1,5 @@
 ---
-title: CF626G Raffles 题解
+title: 'CF626G Raffles 题解'
 date: 2024-07-28 17:37:00
 ---
 

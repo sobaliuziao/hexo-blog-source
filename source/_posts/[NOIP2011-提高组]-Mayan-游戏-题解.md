@@ -1,5 +1,5 @@
 ---
-title: [NOIP2011 提高组] Mayan 游戏 题解
+title: '[NOIP2011 提高组] Mayan 游戏 题解'
 date: 2022-10-01 20:29:00
 ---
 

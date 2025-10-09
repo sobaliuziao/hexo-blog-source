@@ -1,5 +1,5 @@
 ---
-title: P6109 [Ynoi2009] rprmq1 题解
+title: 'P6109 [Ynoi2009] rprmq1 题解'
 date: 2024-08-16 14:40:00
 ---
 

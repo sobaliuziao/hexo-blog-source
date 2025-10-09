@@ -1,5 +1,5 @@
 ---
-title: [AGC040C] Neither AB nor BA 题解
+title: '[AGC040C] Neither AB nor BA 题解'
 date: 2024-02-17 11:46:00
 ---
 

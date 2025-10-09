@@ -1,5 +1,5 @@
 ---
-title: CF566C Logistical Questions 题解
+title: 'CF566C Logistical Questions 题解'
 date: 2024-08-02 15:00:00
 ---
 

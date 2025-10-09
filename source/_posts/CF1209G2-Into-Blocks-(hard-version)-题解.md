@@ -1,5 +1,5 @@
 ---
-title: CF1209G2 Into Blocks (hard version) 题解
+title: 'CF1209G2 Into Blocks (hard version) 题解'
 date: 2024-02-28 17:16:00
 ---
 

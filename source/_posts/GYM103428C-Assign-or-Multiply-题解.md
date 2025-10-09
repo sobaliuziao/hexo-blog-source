@@ -1,5 +1,5 @@
 ---
-title: GYM103428C Assign or Multiply 题解
+title: 'GYM103428C Assign or Multiply 题解'
 date: 2025-08-26 19:28:00
 ---
 

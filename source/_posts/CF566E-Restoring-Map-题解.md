@@ -1,5 +1,5 @@
 ---
-title: CF566E Restoring Map 题解
+title: 'CF566E Restoring Map 题解'
 date: 2024-08-04 17:22:00
 ---
 

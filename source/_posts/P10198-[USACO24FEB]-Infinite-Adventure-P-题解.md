@@ -1,5 +1,5 @@
 ---
-title: P10198 [USACO24FEB] Infinite Adventure P 题解
+title: 'P10198 [USACO24FEB] Infinite Adventure P 题解'
 date: 2025-08-22 16:09:00
 ---
 

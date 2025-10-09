@@ -1,5 +1,5 @@
 ---
-title: [CEOI2023] A Light Inconvenience 题解
+title: '[CEOI2023] A Light Inconvenience 题解'
 date: 2024-11-12 21:15:00
 ---
 

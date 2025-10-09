@@ -1,5 +1,5 @@
 ---
-title: [ARC150E] Weathercock 题解
+title: '[ARC150E] Weathercock 题解'
 date: 2025-04-05 16:00:00
 ---
 

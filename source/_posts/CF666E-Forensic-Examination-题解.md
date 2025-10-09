@@ -1,5 +1,5 @@
 ---
-title: CF666E Forensic Examination 题解
+title: 'CF666E Forensic Examination 题解'
 date: 2025-02-20 17:27:00
 ---
 

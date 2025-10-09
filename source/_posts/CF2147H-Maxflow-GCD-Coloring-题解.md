@@ -1,5 +1,5 @@
 ---
-title: CF2147H Maxflow GCD Coloring 题解
+title: 'CF2147H Maxflow GCD Coloring 题解'
 date: 2025-09-22 19:35:00
 ---
 

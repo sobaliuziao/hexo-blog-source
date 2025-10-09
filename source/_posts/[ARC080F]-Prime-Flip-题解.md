@@ -1,5 +1,5 @@
 ---
-title: [ARC080F] Prime Flip 题解
+title: '[ARC080F] Prime Flip 题解'
 date: 2024-07-10 20:53:00
 ---
 

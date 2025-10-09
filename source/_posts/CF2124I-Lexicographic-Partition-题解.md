@@ -1,5 +1,5 @@
 ---
-title: CF2124I Lexicographic Partition 题解
+title: 'CF2124I Lexicographic Partition 题解'
 date: 2025-07-21 19:53:00
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: CF603E Pastoral Oddities 题解
+title: 'CF603E Pastoral Oddities 题解'
 date: 2024-11-17 15:58:00
 ---
 

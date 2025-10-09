@@ -1,5 +1,5 @@
 ---
-title: CF1687D Cute number 题解
+title: 'CF1687D Cute number 题解'
 date: 2024-09-13 09:39:00
 ---
 

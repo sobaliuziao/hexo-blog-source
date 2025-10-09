@@ -1,5 +1,5 @@
 ---
-title: P10013 [集训队互测 2023] Tree Topological Order Counting
+title: 'P10013 [集训队互测 2023] Tree Topological Order Counting'
 date: 2024-08-29 23:19:00
 ---
 

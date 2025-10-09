@@ -1,5 +1,5 @@
 ---
-title: CF521E Cycling City 题解
+title: 'CF521E Cycling City 题解'
 date: 2024-07-23 16:33:00
 ---
 

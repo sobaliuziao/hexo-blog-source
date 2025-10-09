@@ -1,5 +1,5 @@
 ---
-title: CF2115F1 Gellyfish and Lycoris Radiata (Easy Version) 题解
+title: 'CF2115F1 Gellyfish and Lycoris Radiata (Easy Version) 题解'
 date: 2025-07-23 21:30:00
 ---
 

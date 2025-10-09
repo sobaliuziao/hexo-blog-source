@@ -1,5 +1,5 @@
 ---
-title: trick 题集合
+title: 'trick 题集合'
 date: 2025-08-28 15:45:00
 ---
 

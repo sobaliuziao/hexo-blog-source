@@ -1,5 +1,5 @@
 ---
-title: [CEOI2023] Tricks of the Trade 题解
+title: '[CEOI2023] Tricks of the Trade 题解'
 date: 2024-11-15 16:50:00
 ---
 

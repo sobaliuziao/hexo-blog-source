@@ -1,5 +1,5 @@
 ---
-title: P13693 [CEOI 2025] Equal Mex 题解
+title: 'P13693 [CEOI 2025] Equal Mex 题解'
 date: 2025-09-16 15:44:00
 ---
 

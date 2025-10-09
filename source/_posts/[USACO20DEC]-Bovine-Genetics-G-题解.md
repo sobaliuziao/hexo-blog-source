@@ -1,5 +1,5 @@
 ---
-title: [USACO20DEC] Bovine Genetics G 题解
+title: '[USACO20DEC] Bovine Genetics G 题解'
 date: 2022-10-09 16:26:00
 ---
 

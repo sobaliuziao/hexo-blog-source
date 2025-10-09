@@ -1,5 +1,5 @@
 ---
-title: [PA2024] Modernizacja Bajtocji 题解
+title: '[PA2024] Modernizacja Bajtocji 题解'
 date: 2024-11-04 10:15:00
 ---
 

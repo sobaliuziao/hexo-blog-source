@@ -1,5 +1,5 @@
 ---
-title: [AGC064C] Erase and Divide Game 题解
+title: '[AGC064C] Erase and Divide Game 题解'
 date: 2024-10-08 20:38:00
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: zroi 24noip 十连测 day3 T4 题解
+title: 'zroi 24noip 十连测 day3 T4 题解'
 date: 2024-09-15 20:44:00
 ---
 

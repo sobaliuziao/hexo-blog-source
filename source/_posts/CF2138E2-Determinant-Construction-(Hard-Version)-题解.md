@@ -1,5 +1,5 @@
 ---
-title: CF2138E2 Determinant Construction (Hard Version) 题解
+title: 'CF2138E2 Determinant Construction (Hard Version) 题解'
 date: 2025-09-09 16:39:00
 ---
 

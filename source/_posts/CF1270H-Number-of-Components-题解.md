@@ -1,5 +1,5 @@
 ---
-title: CF1270H Number of Components 题解
+title: 'CF1270H Number of Components 题解'
 date: 2024-09-23 15:16:00
 ---
 

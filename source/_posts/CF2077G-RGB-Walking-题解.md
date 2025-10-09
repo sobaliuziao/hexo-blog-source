@@ -1,5 +1,5 @@
 ---
-title: CF2077G RGB Walking 题解
+title: 'CF2077G RGB Walking 题解'
 date: 2025-08-04 11:24:00
 ---
 

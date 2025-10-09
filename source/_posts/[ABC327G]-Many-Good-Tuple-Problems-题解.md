@@ -1,5 +1,5 @@
 ---
-title: [ABC327G] Many Good Tuple Problems 题解
+title: '[ABC327G] Many Good Tuple Problems 题解'
 date: 2024-02-08 09:42:00
 ---
 

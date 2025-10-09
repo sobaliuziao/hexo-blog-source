@@ -1,5 +1,5 @@
 ---
-title: CF568C New Language 题解
+title: 'CF568C New Language 题解'
 date: 2024-07-25 16:50:00
 ---
 

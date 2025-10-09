@@ -1,5 +1,5 @@
 ---
-title: P8998 [CEOI2022] Prize 题解
+title: 'P8998 [CEOI2022] Prize 题解'
 date: 2024-12-13 19:35:00
 ---
 

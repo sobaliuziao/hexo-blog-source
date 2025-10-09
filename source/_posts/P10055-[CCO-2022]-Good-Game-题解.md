@@ -1,5 +1,5 @@
 ---
-title: P10055 [CCO 2022] Good Game 题解
+title: 'P10055 [CCO 2022] Good Game 题解'
 date: 2025-08-28 09:00:00
 ---
 

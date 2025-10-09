@@ -1,5 +1,5 @@
 ---
-title: CF1285F Classical? 题解
+title: 'CF1285F Classical? 题解'
 date: 2025-03-24 10:05:00
 ---
 

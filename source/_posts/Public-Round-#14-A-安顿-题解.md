@@ -1,5 +1,5 @@
 ---
-title: Public Round #14 A 安顿 题解
+title: 'Public Round #14 A 安顿 题解'
 date: 2025-02-06 20:24:00
 ---
 

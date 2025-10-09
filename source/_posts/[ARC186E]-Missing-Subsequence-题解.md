@@ -1,5 +1,5 @@
 ---
-title: [ARC186E] Missing Subsequence 题解
+title: '[ARC186E] Missing Subsequence 题解'
 date: 2024-10-29 12:32:00
 ---
 

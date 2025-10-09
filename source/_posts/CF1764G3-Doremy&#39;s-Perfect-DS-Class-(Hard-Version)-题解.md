@@ -1,5 +1,5 @@
 ---
-title: CF1764G3 Doremy&#39;s Perfect DS Class (Hard Version) 题解
+title: 'CF1764G3 Doremy&#39;s Perfect DS Class (Hard Version) 题解'
 date: 2025-08-20 15:23:00
 ---
 

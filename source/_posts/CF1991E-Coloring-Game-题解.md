@@ -1,5 +1,5 @@
 ---
-title: CF1991E Coloring Game 题解
+title: 'CF1991E Coloring Game 题解'
 date: 2024-09-07 14:25:00
 ---
 

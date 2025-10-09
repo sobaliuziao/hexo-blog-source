@@ -1,5 +1,5 @@
 ---
-title: [AGC047F] Rooks 题解
+title: '[AGC047F] Rooks 题解'
 date: 2025-04-07 16:18:00
 ---
 

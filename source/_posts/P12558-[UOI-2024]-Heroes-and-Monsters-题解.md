@@ -1,5 +1,5 @@
 ---
-title: P12558 [UOI 2024] Heroes and Monsters 题解
+title: 'P12558 [UOI 2024] Heroes and Monsters 题解'
 date: 2025-09-15 21:24:00
 ---
 

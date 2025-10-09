@@ -1,5 +1,5 @@
 ---
-title: P11677 [USACO25JAN] Shock Wave P 题解
+title: 'P11677 [USACO25JAN] Shock Wave P 题解'
 date: 2025-03-19 09:42:00
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: best 定理
+title: 'best 定理'
 date: 2024-05-21 19:22:00
 ---
 

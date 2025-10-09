@@ -1,5 +1,5 @@
 ---
-title: CF506E Mr. Kitayuta&#39;s Gift 题解
+title: 'CF506E Mr. Kitayuta&#39;s Gift 题解'
 date: 2024-07-22 15:26:00
 ---
 

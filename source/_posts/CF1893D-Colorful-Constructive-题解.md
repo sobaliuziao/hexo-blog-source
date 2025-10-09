@@ -1,5 +1,5 @@
 ---
-title: CF1893D Colorful Constructive 题解
+title: 'CF1893D Colorful Constructive 题解'
 date: 2025-09-22 10:47:00
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: CF2096H Wonderful XOR Problem 题解
+title: 'CF2096H Wonderful XOR Problem 题解'
 date: 2025-07-30 14:37:00
 ---
 

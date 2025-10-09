@@ -1,5 +1,5 @@
 ---
-title: CF2097F Lost Luggage 题解
+title: 'CF2097F Lost Luggage 题解'
 date: 2025-07-28 17:25:00
 ---
 

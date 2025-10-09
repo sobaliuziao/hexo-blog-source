@@ -1,5 +1,5 @@
 ---
-title: CF1519F Chests and Keys 题解
+title: 'CF1519F Chests and Keys 题解'
 date: 2024-07-12 11:56:00
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: P12546 [UOI 2025] Convex Array 题解
+title: 'P12546 [UOI 2025] Convex Array 题解'
 date: 2025-05-21 10:38:00
 ---
 

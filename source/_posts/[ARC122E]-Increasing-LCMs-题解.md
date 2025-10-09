@@ -1,5 +1,5 @@
 ---
-title: [ARC122E] Increasing LCMs 题解
+title: '[ARC122E] Increasing LCMs 题解'
 date: 2024-02-18 16:18:00
 ---
 

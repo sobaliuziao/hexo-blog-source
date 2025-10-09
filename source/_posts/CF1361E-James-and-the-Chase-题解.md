@@ -1,5 +1,5 @@
 ---
-title: CF1361E James and the Chase 题解
+title: 'CF1361E James and the Chase 题解'
 date: 2024-04-08 19:45:00
 ---
 

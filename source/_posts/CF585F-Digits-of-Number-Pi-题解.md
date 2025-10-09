@@ -1,5 +1,5 @@
 ---
-title: CF585F Digits of Number Pi 题解
+title: 'CF585F Digits of Number Pi 题解'
 date: 2024-07-26 21:52:00
 ---
 

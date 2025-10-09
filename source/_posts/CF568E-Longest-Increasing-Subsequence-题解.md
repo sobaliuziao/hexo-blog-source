@@ -1,5 +1,5 @@
 ---
-title: CF568E Longest Increasing Subsequence 题解
+title: 'CF568E Longest Increasing Subsequence 题解'
 date: 2024-08-06 08:59:00
 ---
 

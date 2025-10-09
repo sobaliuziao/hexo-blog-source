@@ -1,5 +1,5 @@
 ---
-title: CF1842G Tenzing and Random Operations 题解
+title: 'CF1842G Tenzing and Random Operations 题解'
 date: 2024-10-02 09:22:00
 ---
 

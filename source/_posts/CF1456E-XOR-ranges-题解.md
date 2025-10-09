@@ -1,5 +1,5 @@
 ---
-title: CF1456E XOR-ranges 题解
+title: 'CF1456E XOR-ranges 题解'
 date: 2025-08-12 09:01:00
 ---
 

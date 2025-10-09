@@ -1,5 +1,5 @@
 ---
-title: CF1698F Equal Reversal 题解
+title: 'CF1698F Equal Reversal 题解'
 date: 2025-09-18 09:08:00
 ---
 

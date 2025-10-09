@@ -1,5 +1,5 @@
 ---
-title: [AGC050F] NAND Tree 题解
+title: '[AGC050F] NAND Tree 题解'
 date: 2025-06-28 10:48:00
 ---
 

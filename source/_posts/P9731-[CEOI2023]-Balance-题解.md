@@ -1,5 +1,5 @@
 ---
-title: P9731 [CEOI2023] Balance 题解
+title: 'P9731 [CEOI2023] Balance 题解'
 date: 2024-04-03 16:07:00
 ---
 

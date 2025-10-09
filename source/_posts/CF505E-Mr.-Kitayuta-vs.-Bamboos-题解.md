@@ -1,5 +1,5 @@
 ---
-title: CF505E Mr. Kitayuta vs. Bamboos 题解
+title: 'CF505E Mr. Kitayuta vs. Bamboos 题解'
 date: 2024-07-04 20:40:00
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: P5123 [USACO18DEC]Cowpatibility G 题解
+title: 'P5123 [USACO18DEC]Cowpatibility G 题解'
 date: 2022-01-24 14:32:00
 ---
 

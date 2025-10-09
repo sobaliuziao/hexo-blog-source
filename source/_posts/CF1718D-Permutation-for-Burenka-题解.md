@@ -1,5 +1,5 @@
 ---
-title: CF1718D Permutation for Burenka 题解
+title: 'CF1718D Permutation for Burenka 题解'
 date: 2025-03-19 14:36:00
 ---
 

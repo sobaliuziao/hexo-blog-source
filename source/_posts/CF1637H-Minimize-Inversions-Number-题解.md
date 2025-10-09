@@ -1,5 +1,5 @@
 ---
-title: CF1637H Minimize Inversions Number 题解
+title: 'CF1637H Minimize Inversions Number 题解'
 date: 2025-03-25 16:00:00
 ---
 

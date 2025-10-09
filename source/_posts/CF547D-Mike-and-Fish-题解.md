@@ -1,5 +1,5 @@
 ---
-title: CF547D Mike and Fish 题解
+title: 'CF547D Mike and Fish 题解'
 date: 2024-07-24 11:30:00
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: CF605E Intergalaxy Trips 题解
+title: 'CF605E Intergalaxy Trips 题解'
 date: 2024-07-27 16:15:00
 ---
 

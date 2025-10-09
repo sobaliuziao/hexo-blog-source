@@ -1,5 +1,5 @@
 ---
-title: CF526G Spiders Evil Plan 题解
+title: 'CF526G Spiders Evil Plan 题解'
 date: 2024-07-28 23:32:00
 ---
 

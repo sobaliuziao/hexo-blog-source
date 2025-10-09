@@ -1,5 +1,5 @@
 ---
-title: Public NOIP Round #6 D 排序 题解
+title: 'Public NOIP Round #6 D 排序 题解'
 date: 2024-11-19 16:26:00
 ---
 

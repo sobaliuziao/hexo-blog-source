@@ -1,5 +1,5 @@
 ---
-title: CF1149D Abandoning Roads 题解
+title: 'CF1149D Abandoning Roads 题解'
 date: 2024-04-06 18:43:00
 ---
 

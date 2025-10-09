@@ -1,5 +1,5 @@
 ---
-title: CF573E Bear and Bowling 题解
+title: 'CF573E Bear and Bowling 题解'
 date: 2024-08-06 21:24:00
 ---
 

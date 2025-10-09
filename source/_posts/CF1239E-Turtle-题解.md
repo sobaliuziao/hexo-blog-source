@@ -1,5 +1,5 @@
 ---
-title: CF1239E Turtle 题解
+title: 'CF1239E Turtle 题解'
 date: 2024-09-22 21:44:00
 ---
 

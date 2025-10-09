@@ -1,5 +1,5 @@
 ---
-title: CF1991F Triangle Formation 题解
+title: 'CF1991F Triangle Formation 题解'
 date: 2024-09-07 16:33:00
 ---
 

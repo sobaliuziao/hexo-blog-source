@@ -1,5 +1,5 @@
 ---
-title: CF538H Summer Dichotomy 题解
+title: 'CF538H Summer Dichotomy 题解'
 date: 2024-07-30 19:55:00
 ---
 

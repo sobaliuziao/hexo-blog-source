@@ -1,5 +1,5 @@
 ---
-title: P9019 [USACO23JAN] Tractor Paths P 题解
+title: 'P9019 [USACO23JAN] Tractor Paths P 题解'
 date: 2023-10-04 22:22:00
 ---
 

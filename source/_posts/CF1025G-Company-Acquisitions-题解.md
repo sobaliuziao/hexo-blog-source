@@ -1,5 +1,5 @@
 ---
-title: CF1025G Company Acquisitions 题解
+title: 'CF1025G Company Acquisitions 题解'
 date: 2025-08-26 20:22:00
 ---
 

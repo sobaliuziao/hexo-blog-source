@@ -1,5 +1,5 @@
 ---
-title: CF1764H Doremy&#39;s Paint 2 题解
+title: 'CF1764H Doremy&#39;s Paint 2 题解'
 date: 2025-08-22 20:15:00
 ---
 

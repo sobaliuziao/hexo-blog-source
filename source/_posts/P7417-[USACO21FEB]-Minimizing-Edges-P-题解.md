@@ -1,5 +1,5 @@
 ---
-title: P7417 [USACO21FEB] Minimizing Edges P 题解
+title: 'P7417 [USACO21FEB] Minimizing Edges P 题解'
 date: 2025-02-13 10:57:00
 ---
 

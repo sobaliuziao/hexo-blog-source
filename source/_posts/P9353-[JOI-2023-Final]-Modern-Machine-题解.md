@@ -1,5 +1,5 @@
 ---
-title: P9353 [JOI 2023 Final] Modern Machine 题解
+title: 'P9353 [JOI 2023 Final] Modern Machine 题解'
 date: 2024-10-20 21:10:00
 ---
 

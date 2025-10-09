@@ -1,5 +1,5 @@
 ---
-title: P3547 [POI2013] CEN-Price List 题解
+title: 'P3547 [POI2013] CEN-Price List 题解'
 date: 2024-08-24 20:03:00
 ---
 

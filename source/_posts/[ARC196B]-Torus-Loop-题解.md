@@ -1,5 +1,5 @@
 ---
-title: [ARC196B] Torus Loop 题解
+title: '[ARC196B] Torus Loop 题解'
 date: 2025-04-07 08:54:00
 ---
 

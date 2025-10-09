@@ -1,5 +1,5 @@
 ---
-title: CF1844E Great Grids 题解
+title: 'CF1844E Great Grids 题解'
 date: 2023-10-07 20:35:00
 ---
 

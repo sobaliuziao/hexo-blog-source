@@ -1,5 +1,5 @@
 ---
-title: CF2062G Permutation Factory 题解
+title: 'CF2062G Permutation Factory 题解'
 date: 2025-08-12 15:49:00
 ---
 

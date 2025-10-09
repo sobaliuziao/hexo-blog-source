@@ -1,5 +1,5 @@
 ---
-title: CF512D Fox And Travelling 题解
+title: 'CF512D Fox And Travelling 题解'
 date: 2024-07-22 23:01:00
 ---
 

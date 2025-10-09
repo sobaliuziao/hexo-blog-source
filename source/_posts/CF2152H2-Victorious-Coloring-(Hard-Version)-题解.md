@@ -1,5 +1,5 @@
 ---
-title: CF2152H2 Victorious Coloring (Hard Version) 题解
+title: 'CF2152H2 Victorious Coloring (Hard Version) 题解'
 date: 2025-10-07 20:59:00
 ---
 

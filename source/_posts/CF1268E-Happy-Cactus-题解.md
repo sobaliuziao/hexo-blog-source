@@ -1,5 +1,5 @@
 ---
-title: CF1268E Happy Cactus 题解
+title: 'CF1268E Happy Cactus 题解'
 date: 2024-09-29 15:23:00
 ---
 

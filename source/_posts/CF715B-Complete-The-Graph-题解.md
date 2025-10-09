@@ -1,5 +1,5 @@
 ---
-title: CF715B Complete The Graph 题解
+title: 'CF715B Complete The Graph 题解'
 date: 2024-11-18 20:11:00
 ---
 

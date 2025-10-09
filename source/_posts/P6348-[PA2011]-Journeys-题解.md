@@ -1,5 +1,5 @@
 ---
-title: P6348 [PA2011] Journeys 题解
+title: 'P6348 [PA2011] Journeys 题解'
 date: 2024-08-23 22:44:00
 ---
 

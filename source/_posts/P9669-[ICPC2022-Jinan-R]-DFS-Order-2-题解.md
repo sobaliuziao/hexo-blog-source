@@ -1,5 +1,5 @@
 ---
-title: P9669 [ICPC2022 Jinan R] DFS Order 2 题解
+title: 'P9669 [ICPC2022 Jinan R] DFS Order 2 题解'
 date: 2023-12-23 23:14:00
 ---
 

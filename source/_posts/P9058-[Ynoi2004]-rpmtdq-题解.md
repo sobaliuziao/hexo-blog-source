@@ -1,5 +1,5 @@
 ---
-title: P9058 [Ynoi2004] rpmtdq 题解
+title: 'P9058 [Ynoi2004] rpmtdq 题解'
 date: 2024-04-05 15:46:00
 ---
 

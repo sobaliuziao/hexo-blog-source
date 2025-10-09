@@ -1,5 +1,5 @@
 ---
-title: CF1515G Phoenix and Odometers 题解
+title: 'CF1515G Phoenix and Odometers 题解'
 date: 2025-05-08 19:17:00
 ---
 

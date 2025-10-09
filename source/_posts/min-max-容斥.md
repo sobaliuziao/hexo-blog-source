@@ -1,5 +1,5 @@
 ---
-title: min-max 容斥
+title: 'min-max 容斥'
 date: 2024-04-23 20:00:00
 ---
 

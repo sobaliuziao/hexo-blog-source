@@ -1,5 +1,5 @@
 ---
-title: [ABC311Ex] Many Illumination Plans 题解
+title: '[ABC311Ex] Many Illumination Plans 题解'
 date: 2025-08-25 20:12:00
 ---
 

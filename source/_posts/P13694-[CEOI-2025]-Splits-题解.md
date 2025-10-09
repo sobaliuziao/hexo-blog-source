@@ -1,5 +1,5 @@
 ---
-title: P13694 [CEOI 2025] Splits 题解
+title: 'P13694 [CEOI 2025] Splits 题解'
 date: 2025-09-16 21:20:00
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: CF1917F Construct Tree 题解
+title: 'CF1917F Construct Tree 题解'
 date: 2023-12-29 20:56:00
 ---
 

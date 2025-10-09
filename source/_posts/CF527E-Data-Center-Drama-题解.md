@@ -1,5 +1,5 @@
 ---
-title: CF527E Data Center Drama 题解
+title: 'CF527E Data Center Drama 题解'
 date: 2024-07-24 09:51:00
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: CF576D Flights for Regular Customers 题解
+title: 'CF576D Flights for Regular Customers 题解'
 date: 2024-07-26 17:18:00
 ---
 

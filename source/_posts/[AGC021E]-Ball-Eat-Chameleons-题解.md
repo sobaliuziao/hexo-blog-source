@@ -1,5 +1,5 @@
 ---
-title: [AGC021E] Ball Eat Chameleons 题解
+title: '[AGC021E] Ball Eat Chameleons 题解'
 date: 2024-02-07 20:25:00
 ---
 

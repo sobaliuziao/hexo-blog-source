@@ -1,5 +1,5 @@
 ---
-title: P5547 [BJ United Round #3] 三色树 题解
+title: 'P5547 [BJ United Round #3] 三色树 题解'
 date: 2024-10-11 16:05:00
 ---
 

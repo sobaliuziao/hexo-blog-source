@@ -1,5 +1,5 @@
 ---
-title: [AGC039F] Min Product Sum 题解
+title: '[AGC039F] Min Product Sum 题解'
 date: 2025-06-27 10:08:00
 ---
 

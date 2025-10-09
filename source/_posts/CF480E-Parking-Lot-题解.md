@@ -1,5 +1,5 @@
 ---
-title: CF480E Parking Lot 题解
+title: 'CF480E Parking Lot 题解'
 date: 2025-09-05 20:25:00
 ---
 

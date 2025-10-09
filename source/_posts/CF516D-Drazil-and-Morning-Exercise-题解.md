@@ -1,5 +1,5 @@
 ---
-title: CF516D Drazil and Morning Exercise 题解
+title: 'CF516D Drazil and Morning Exercise 题解'
 date: 2024-02-08 22:38:00
 ---
 

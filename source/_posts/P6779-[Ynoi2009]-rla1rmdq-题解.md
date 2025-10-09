@@ -1,5 +1,5 @@
 ---
-title: P6779 [Ynoi2009] rla1rmdq 题解
+title: 'P6779 [Ynoi2009] rla1rmdq 题解'
 date: 2024-12-25 10:34:00
 ---
 

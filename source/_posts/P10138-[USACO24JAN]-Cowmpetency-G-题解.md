@@ -1,5 +1,5 @@
 ---
-title: P10138 [USACO24JAN] Cowmpetency G 题解
+title: 'P10138 [USACO24JAN] Cowmpetency G 题解'
 date: 2024-02-23 20:20:00
 ---
 

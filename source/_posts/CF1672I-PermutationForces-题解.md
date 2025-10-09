@@ -1,5 +1,5 @@
 ---
-title: CF1672I PermutationForces 题解
+title: 'CF1672I PermutationForces 题解'
 date: 2025-03-24 08:47:00
 ---
 

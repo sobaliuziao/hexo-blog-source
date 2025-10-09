@@ -1,5 +1,5 @@
 ---
-title: CF1119H Triple 题解
+title: 'CF1119H Triple 题解'
 date: 2024-09-25 15:53:00
 ---
 

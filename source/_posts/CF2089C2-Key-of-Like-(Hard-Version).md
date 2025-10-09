@@ -1,5 +1,5 @@
 ---
-title: CF2089C2 Key of Like (Hard Version)
+title: 'CF2089C2 Key of Like (Hard Version)'
 date: 2025-07-31 14:45:00
 ---
 

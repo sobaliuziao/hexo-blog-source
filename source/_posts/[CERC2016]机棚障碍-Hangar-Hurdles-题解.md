@@ -1,5 +1,5 @@
 ---
-title: [CERC2016]机棚障碍 Hangar Hurdles 题解
+title: '[CERC2016]机棚障碍 Hangar Hurdles 题解'
 date: 2022-10-13 17:32:00
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: CF1017G The Tree 题解
+title: 'CF1017G The Tree 题解'
 date: 2024-12-20 14:48:00
 ---
 

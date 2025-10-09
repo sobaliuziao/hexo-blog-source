@@ -1,5 +1,5 @@
 ---
-title: CF2115D Gellyfish and Forget-Me-Not 题解
+title: 'CF2115D Gellyfish and Forget-Me-Not 题解'
 date: 2025-07-22 20:15:00
 ---
 

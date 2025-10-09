@@ -1,5 +1,5 @@
 ---
-title: P11915 [PA 2025] Teleport 题解
+title: 'P11915 [PA 2025] Teleport 题解'
 date: 2025-03-26 11:28:00
 ---
 

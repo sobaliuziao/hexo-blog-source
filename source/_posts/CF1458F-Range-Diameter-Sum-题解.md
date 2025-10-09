@@ -1,5 +1,5 @@
 ---
-title: CF1458F Range Diameter Sum 题解
+title: 'CF1458F Range Diameter Sum 题解'
 date: 2025-02-07 17:31:00
 ---
 

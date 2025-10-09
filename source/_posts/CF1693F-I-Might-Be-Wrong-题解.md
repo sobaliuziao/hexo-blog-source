@@ -1,5 +1,5 @@
 ---
-title: CF1693F I Might Be Wrong 题解
+title: 'CF1693F I Might Be Wrong 题解'
 date: 2025-03-22 16:29:00
 ---
 

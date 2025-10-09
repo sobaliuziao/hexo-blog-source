@@ -1,5 +1,5 @@
 ---
-title: [AGC072A] Rhythm Game 题解
+title: '[AGC072A] Rhythm Game 题解'
 date: 2025-04-21 09:44:00
 ---
 

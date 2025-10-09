@@ -1,5 +1,5 @@
 ---
-title: CF1504B Flip the Bits 题解
+title: 'CF1504B Flip the Bits 题解'
 date: 2021-04-04 20:20:00
 ---
 

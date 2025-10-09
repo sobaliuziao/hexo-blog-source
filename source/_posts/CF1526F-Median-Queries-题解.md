@@ -1,5 +1,5 @@
 ---
-title: CF1526F Median Queries 题解
+title: 'CF1526F Median Queries 题解'
 date: 2024-09-20 10:59:00
 ---
 

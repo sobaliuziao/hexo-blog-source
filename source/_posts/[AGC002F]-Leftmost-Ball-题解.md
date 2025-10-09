@@ -1,5 +1,5 @@
 ---
-title: [AGC002F] Leftmost Ball 题解
+title: '[AGC002F] Leftmost Ball 题解'
 date: 2023-10-19 20:19:00
 ---
 

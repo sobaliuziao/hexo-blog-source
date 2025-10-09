@@ -1,5 +1,5 @@
 ---
-title: CF1446D2 Frequency Problem (Hard Version) 题解
+title: 'CF1446D2 Frequency Problem (Hard Version) 题解'
 date: 2025-02-12 20:32:00
 ---
 

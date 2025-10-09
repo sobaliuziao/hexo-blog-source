@@ -1,5 +1,5 @@
 ---
-title: CF1408H Rainbow Triples 题解
+title: 'CF1408H Rainbow Triples 题解'
 date: 2024-02-28 20:56:00
 ---
 

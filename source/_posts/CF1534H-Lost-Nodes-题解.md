@@ -1,5 +1,5 @@
 ---
-title: CF1534H Lost Nodes 题解
+title: 'CF1534H Lost Nodes 题解'
 date: 2025-06-20 16:58:00
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: P13695 [CEOI 2025] theseus 题解
+title: 'P13695 [CEOI 2025] theseus 题解'
 date: 2025-09-16 17:16:00
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: [AT WTF2022 Day2 D] Cat Jumps 题解
+title: '[AT WTF2022 Day2 D] Cat Jumps 题解'
 date: 2025-06-27 17:10:00
 ---
 

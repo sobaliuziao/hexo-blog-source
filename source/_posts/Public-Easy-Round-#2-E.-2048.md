@@ -1,5 +1,5 @@
 ---
-title: Public Easy Round #2 E. 2048
+title: 'Public Easy Round #2 E. 2048'
 date: 2024-04-01 18:57:00
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: P9062 [Ynoi2002] Adaptive Hsearch&amp;Lsearch 题解
+title: 'P9062 [Ynoi2002] Adaptive Hsearch&amp;Lsearch 题解'
 date: 2025-04-13 16:16:00
 ---
 

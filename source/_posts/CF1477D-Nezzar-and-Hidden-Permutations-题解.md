@@ -1,5 +1,5 @@
 ---
-title: CF1477D Nezzar and Hidden Permutations 题解
+title: 'CF1477D Nezzar and Hidden Permutations 题解'
 date: 2024-12-20 21:59:00
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: prufer 序列
+title: 'prufer 序列'
 date: 2024-03-19 19:51:00
 ---
 

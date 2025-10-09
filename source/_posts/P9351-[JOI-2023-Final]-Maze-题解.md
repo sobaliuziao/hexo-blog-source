@@ -1,5 +1,5 @@
 ---
-title: P9351 [JOI 2023 Final] Maze 题解
+title: 'P9351 [JOI 2023 Final] Maze 题解'
 date: 2024-10-18 10:51:00
 ---
 

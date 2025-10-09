@@ -1,5 +1,5 @@
 ---
-title: CF578E Walking! 题解
+title: 'CF578E Walking! 题解'
 date: 2024-07-26 19:15:00
 ---
 

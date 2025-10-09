@@ -1,5 +1,5 @@
 ---
-title: [ABC259Ex] Yet Another Path Counting 题解
+title: '[ABC259Ex] Yet Another Path Counting 题解'
 date: 2024-02-22 14:12:00
 ---
 

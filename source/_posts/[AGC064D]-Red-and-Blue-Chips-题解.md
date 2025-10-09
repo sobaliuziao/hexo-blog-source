@@ -1,5 +1,5 @@
 ---
-title: [AGC064D] Red and Blue Chips 题解
+title: '[AGC064D] Red and Blue Chips 题解'
 date: 2024-10-09 11:49:00
 ---
 

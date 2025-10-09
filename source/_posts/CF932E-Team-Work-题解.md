@@ -1,5 +1,5 @@
 ---
-title: CF932E Team Work 题解
+title: 'CF932E Team Work 题解'
 date: 2023-08-16 21:22:00
 ---
 

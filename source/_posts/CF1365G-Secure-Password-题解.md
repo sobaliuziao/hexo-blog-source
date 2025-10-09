@@ -1,5 +1,5 @@
 ---
-title: CF1365G Secure Password 题解
+title: 'CF1365G Secure Password 题解'
 date: 2024-02-17 19:38:00
 ---
 

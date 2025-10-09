@@ -1,5 +1,5 @@
 ---
-title: CF1326F2 Wise Men (Hard Version) 题解
+title: 'CF1326F2 Wise Men (Hard Version) 题解'
 date: 2025-09-05 20:48:00
 ---
 

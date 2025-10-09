@@ -1,5 +1,5 @@
 ---
-title: P6922 [ICPC2016 WF] Longest Rivers 题解
+title: 'P6922 [ICPC2016 WF] Longest Rivers 题解'
 date: 2023-12-25 15:48:00
 ---
 

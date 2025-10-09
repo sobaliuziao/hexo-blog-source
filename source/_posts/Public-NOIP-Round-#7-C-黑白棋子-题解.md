@@ -1,5 +1,5 @@
 ---
-title: Public NOIP Round #7 C 黑白棋子 题解
+title: 'Public NOIP Round #7 C 黑白棋子 题解'
 date: 2024-10-22 16:51:00
 ---
 

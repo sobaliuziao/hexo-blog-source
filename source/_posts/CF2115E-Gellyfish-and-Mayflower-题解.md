@@ -1,5 +1,5 @@
 ---
-title: CF2115E Gellyfish and Mayflower 题解
+title: 'CF2115E Gellyfish and Mayflower 题解'
 date: 2025-07-23 16:10:00
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: CF538G Berserk Robot 题解
+title: 'CF538G Berserk Robot 题解'
 date: 2024-07-29 19:29:00
 ---
 

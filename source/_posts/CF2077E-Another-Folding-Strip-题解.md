@@ -1,5 +1,5 @@
 ---
-title: CF2077E Another Folding Strip 题解
+title: 'CF2077E Another Folding Strip 题解'
 date: 2025-08-01 16:08:00
 ---
 

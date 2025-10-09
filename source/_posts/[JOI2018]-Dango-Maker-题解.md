@@ -1,5 +1,5 @@
 ---
-title: [JOI2018] Dango Maker 题解
+title: '[JOI2018] Dango Maker 题解'
 date: 2022-10-07 21:40:00
 ---
 

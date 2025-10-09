@@ -1,5 +1,5 @@
 ---
-title: CF521D Shop 题解
+title: 'CF521D Shop 题解'
 date: 2024-07-23 16:24:00
 ---
 

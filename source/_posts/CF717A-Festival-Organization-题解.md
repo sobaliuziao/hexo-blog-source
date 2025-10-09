@@ -1,5 +1,5 @@
 ---
-title: CF717A Festival Organization 题解
+title: 'CF717A Festival Organization 题解'
 date: 2024-09-10 16:05:00
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: P6646 [CCO 2020] Shopping Plans 题解
+title: 'P6646 [CCO 2020] Shopping Plans 题解'
 date: 2025-06-18 21:01:00
 ---
 

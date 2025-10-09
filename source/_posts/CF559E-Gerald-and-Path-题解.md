@@ -1,5 +1,5 @@
 ---
-title: CF559E Gerald and Path 题解
+title: 'CF559E Gerald and Path 题解'
 date: 2024-07-25 14:24:00
 ---
 

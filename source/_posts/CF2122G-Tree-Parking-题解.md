@@ -1,5 +1,5 @@
 ---
-title: CF2122G Tree Parking 题解
+title: 'CF2122G Tree Parking 题解'
 date: 2025-07-22 15:54:00
 ---
 

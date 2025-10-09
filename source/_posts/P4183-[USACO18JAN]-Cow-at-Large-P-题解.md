@@ -1,5 +1,5 @@
 ---
-title: P4183 [USACO18JAN] Cow at Large P 题解
+title: 'P4183 [USACO18JAN] Cow at Large P 题解'
 date: 2024-02-10 23:13:00
 ---
 

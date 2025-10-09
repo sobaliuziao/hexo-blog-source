@@ -1,5 +1,5 @@
 ---
-title: CF1712F Triameter 题解
+title: 'CF1712F Triameter 题解'
 date: 2023-08-31 19:18:00
 ---
 

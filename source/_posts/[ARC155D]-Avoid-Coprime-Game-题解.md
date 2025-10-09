@@ -1,5 +1,5 @@
 ---
-title: [ARC155D] Avoid Coprime Game 题解
+title: '[ARC155D] Avoid Coprime Game 题解'
 date: 2024-02-25 09:51:00
 ---
 

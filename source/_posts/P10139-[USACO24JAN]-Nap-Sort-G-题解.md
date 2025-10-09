@@ -1,5 +1,5 @@
 ---
-title: P10139 [USACO24JAN] Nap Sort G 题解
+title: 'P10139 [USACO24JAN] Nap Sort G 题解'
 date: 2024-02-23 22:00:00
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: CF516E Drazil and His Happy Friends 题解
+title: 'CF516E Drazil and His Happy Friends 题解'
 date: 2024-07-23 11:29:00
 ---
 

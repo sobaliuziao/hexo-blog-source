@@ -1,5 +1,5 @@
 ---
-title: [AGC018C] Coins 题解
+title: '[AGC018C] Coins 题解'
 date: 2024-02-27 22:52:00
 ---
 

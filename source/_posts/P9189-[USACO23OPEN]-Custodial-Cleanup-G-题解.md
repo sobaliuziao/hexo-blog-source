@@ -1,5 +1,5 @@
 ---
-title: P9189 [USACO23OPEN] Custodial Cleanup G 题解
+title: 'P9189 [USACO23OPEN] Custodial Cleanup G 题解'
 date: 2023-09-07 22:30:00
 ---
 

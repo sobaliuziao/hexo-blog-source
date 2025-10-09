@@ -1,5 +1,5 @@
 ---
-title: CF2066F Curse 题解
+title: 'CF2066F Curse 题解'
 date: 2025-08-08 17:25:00
 ---
 

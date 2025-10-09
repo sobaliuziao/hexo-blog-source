@@ -1,5 +1,5 @@
 ---
-title: P11696 [JRKSJ ExR] 七影蝶 题解
+title: 'P11696 [JRKSJ ExR] 七影蝶 题解'
 date: 2025-09-10 23:03:00
 ---
 

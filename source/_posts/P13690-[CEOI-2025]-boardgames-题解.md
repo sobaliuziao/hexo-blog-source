@@ -1,5 +1,5 @@
 ---
-title: P13690 [CEOI 2025] boardgames 题解
+title: 'P13690 [CEOI 2025] boardgames 题解'
 date: 2025-09-15 17:04:00
 ---
 

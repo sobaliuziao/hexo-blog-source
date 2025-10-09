@@ -1,5 +1,5 @@
 ---
-title: CF578F Mirror Box 题解
+title: 'CF578F Mirror Box 题解'
 date: 2024-08-22 21:12:00
 ---
 

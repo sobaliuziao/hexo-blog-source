@@ -1,5 +1,5 @@
 ---
-title: P10280 [USACO24OPEN] Cowreography G 题解
+title: 'P10280 [USACO24OPEN] Cowreography G 题解'
 date: 2024-07-23 21:20:00
 ---
 

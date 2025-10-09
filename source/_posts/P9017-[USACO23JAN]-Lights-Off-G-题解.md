@@ -1,5 +1,5 @@
 ---
-title: P9017 [USACO23JAN] Lights Off G 题解
+title: 'P9017 [USACO23JAN] Lights Off G 题解'
 date: 2023-07-27 16:27:00
 ---
 

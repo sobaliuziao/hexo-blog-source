@@ -1,5 +1,5 @@
 ---
-title: [ABC310Ex] Negative Cost 题解
+title: '[ABC310Ex] Negative Cost 题解'
 date: 2025-08-05 09:39:00
 ---
 

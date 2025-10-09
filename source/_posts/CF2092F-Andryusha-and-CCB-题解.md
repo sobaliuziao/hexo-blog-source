@@ -1,5 +1,5 @@
 ---
-title: CF2092F Andryusha and CCB 题解
+title: 'CF2092F Andryusha and CCB 题解'
 date: 2025-05-10 20:54:00
 ---
 

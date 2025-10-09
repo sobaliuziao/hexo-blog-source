@@ -1,5 +1,5 @@
 ---
-title: CF1098F Ж-function 题解
+title: 'CF1098F Ж-function 题解'
 date: 2025-04-21 11:53:00
 ---
 

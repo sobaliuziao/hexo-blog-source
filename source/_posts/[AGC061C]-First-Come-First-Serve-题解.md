@@ -1,5 +1,5 @@
 ---
-title: [AGC061C] First Come First Serve 题解
+title: '[AGC061C] First Come First Serve 题解'
 date: 2024-10-08 10:26:00
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: [APC001G] Colorful Doors 题解
+title: '[APC001G] Colorful Doors 题解'
 date: 2025-06-10 21:56:00
 ---
 

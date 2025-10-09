@@ -1,5 +1,5 @@
 ---
-title: P5047 [Ynoi2019 模拟赛] Yuno loves sqrt technology II 题解
+title: 'P5047 [Ynoi2019 模拟赛] Yuno loves sqrt technology II 题解'
 date: 2023-09-29 21:46:00
 ---
 

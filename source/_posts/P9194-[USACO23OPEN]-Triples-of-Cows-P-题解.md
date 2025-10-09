@@ -1,5 +1,5 @@
 ---
-title: P9194 [USACO23OPEN] Triples of Cows P 题解
+title: 'P9194 [USACO23OPEN] Triples of Cows P 题解'
 date: 2023-11-09 22:29:00
 ---
 

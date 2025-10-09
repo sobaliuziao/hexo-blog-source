@@ -1,5 +1,5 @@
 ---
-title: CF671E Organizing a Race 题解
+title: 'CF671E Organizing a Race 题解'
 date: 2025-02-24 19:40:00
 ---
 
