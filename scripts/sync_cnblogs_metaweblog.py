@@ -2,20 +2,23 @@ import os
 import xmlrpc.client
 import frontmatter
 from markdownify import markdownify as md
-from bs4 import BeautifulSoup
 
 USER = os.getenv("Scarab")
 TOKEN = os.getenv("79A65BB1FC15A4BCE6B55990EF8ED4DCCD7F36C549E56DAC7EDE09C40C9DD785")
 
+if not USER or not TOKEN:
+    raise ValueError("❌ Missing CNBLOGS_USER or CNBLOGS_TOKEN env variables")
+
+BLOG_ID = f"https://www.cnblogs.com/Scarab/"
 server = xmlrpc.client.ServerProxy(
-    f"https://rpc.cnblogs.com/metaweblog/{USER}",
+    f"https://rpc.cnblogs.com/metaweblog/Scarab",
     allow_none=True
 )
 
 print("🚀 Syncing from Cnblogs...")
 
-# 获取最近50篇文章
-posts = server.metaWeblog.getRecentPosts(USER, USER, TOKEN, 50)
+# ✅ blogid, username, password, numberOfPosts
+posts = server.metaWeblog.getRecentPosts(BLOG_ID, USER, TOKEN, 50)
 
 os.makedirs("source/_posts", exist_ok=True)
 
