@@ -32,9 +32,10 @@ for post in posts:
     # ─── 处理 HTML ─────────────────
     soup = BeautifulSoup(html_content, "html.parser")
 
-    # 1️⃣ 保留代码块，转换成 ```cpp ```
+    # 1️⃣ 保留代码块，直接原样包裹 ```cpp ```
     for pre in soup.find_all("pre"):
-        code_text = pre.get_text()
+        code_text = pre.get_text()  # 完全不做转换
+        # 原样包裹，保持缩进、换行、符号
         pre.string = f"```cpp\n{code_text}\n```"
 
     # 2️⃣ 移除 script/style
@@ -45,10 +46,10 @@ for post in posts:
     markdown_text = ""
     for child in soup.children:
         if child.name == "pre":
-            # 代码块原样
+            # 代码块原样输出
             markdown_text += child.get_text() + "\n\n"
         else:
-            # 普通文本
+            # 普通文本转 Markdown
             markdown_text += child.get_text(separator="\n") + "\n\n"
 
     # ─── 处理日期 ─────────────────
