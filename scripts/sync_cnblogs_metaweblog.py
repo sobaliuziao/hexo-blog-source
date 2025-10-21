@@ -13,10 +13,8 @@ POST_DIR.mkdir(parents=True, exist_ok=True)
 if not USER or not TOKEN:
     raise ValueError("❌ Missing CNBLOGS_USER or CNBLOGS_TOKEN env variables")
 
-# 博客园 blogid
 BLOG_ID = f"https://www.cnblogs.com/{USER}/"
 
-# 创建 ServerProxy
 server = xmlrpc.client.ServerProxy(
     f"https://rpc.cnblogs.com/metaweblog/{USER}",
     allow_none=True
@@ -31,7 +29,7 @@ for post in posts:
     title = post.get("title", "untitled")
     html_content = post.get("description", "")
 
-    # ─── 处理 HTML 内容 ─────────────────
+    # ─── 处理 HTML ─────────────────
     soup = BeautifulSoup(html_content, "html.parser")
 
     # 1️⃣ 保留代码块，转换成 ```cpp ```
@@ -43,14 +41,14 @@ for post in posts:
     for tag in soup(["script", "style"]):
         tag.decompose()
 
-    # 3️⃣ 转 Markdown（不转换 <pre> 内的内容）
+    # 3️⃣ 转 Markdown，只处理普通文本，保留 <pre> 原样
     markdown_text = ""
     for child in soup.children:
-        # 如果是 <pre> 则直接取 text
         if child.name == "pre":
+            # 代码块原样
             markdown_text += child.get_text() + "\n\n"
         else:
-            # 其他节点转成文本
+            # 普通文本
             markdown_text += child.get_text(separator="\n") + "\n\n"
 
     # ─── 处理日期 ─────────────────
@@ -65,16 +63,15 @@ for post in posts:
     categories = post.get("categories", [])
     tags = post.get("mt_keywords", "").split(",") if post.get("mt_keywords") else []
 
-    # ─── 文件名处理 ─────────────────
+    # ─── 文件名安全处理 ─────────────────
     safe_title = "".join(c if c.isalnum() or c in "-_ " else "-" for c in title).strip()
     filename = POST_DIR / f"{safe_title}.md"
 
-    # 跳过已存在文章
     if filename.exists():
         print(f"⏩ Skipping existing post: {title}")
         continue
 
-    # ─── 构建 frontmatter ─────────────────
+    # ─── 构建 Frontmatter ─────────────────
     fm_post = frontmatter.Post(markdown_text)
     fm_post.metadata = {
         "title": title,
