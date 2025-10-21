@@ -1,72 +1,43 @@
-name: Sync from Cnblogs & Deploy Hexo to GitHub Pages
+name: Deploy Hexo to GitHub Pages
 
 on:
   push:
     branches:
-      - main  # 推送到 main 分支触发
-  schedule:
-    - cron: "0 */6 * * *"  # 每 6 小时自动同步一次（可调整）
+      - main  # 当推送到 main 分支时触发
 
 jobs:
-  sync_and_deploy:
+  build:
     runs-on: ubuntu-latest
 
     steps:
-      # 1️⃣ 拉取 Hexo 源码仓库
       - name: Checkout repository
         uses: actions/checkout@v2
         with:
-          submodules: false
+          submodules: false  # 禁用子模块检查
 
-      # 2️⃣ 设置 Python（用于博客园同步）
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: 3.11
-
-      # 3️⃣ 安装 Python 依赖
-      - name: Install Python dependencies
-        run: |
-          pip install requests beautifulsoup4 markdownify python-frontmatter
-
-      # 4️⃣ 运行同步脚本（MetaWeblog API）
-      - name: Run Cnblogs Sync Script
-        env:
-          CNBLOGS_USER: ${{ secrets.CNBLOGS_USER }}
-          CNBLOGS_TOKEN: ${{ secrets.CNBLOGS_TOKEN }}
-        run: |
-          echo "🚀 Syncing from Cnblogs..."
-          python scripts/sync_cnblogs_metaweblog.py
-
-      # 5️⃣ 安装 Node.js 环境
       - name: Setup Node.js
         uses: actions/setup-node@v2
         with:
           node-version: '18'
 
-      # 6️⃣ 安装 Hexo 依赖
       - name: Install Dependencies
         run: npm install
 
-      # 7️⃣ 安装 Hexo Git 部署插件
       - name: Install Hexo Git Deployer
         run: |
           npm install hexo-deployer-git --save
           npm install hexo-cli -g
 
-      # 8️⃣ 生成静态文件
       - name: Clean and Generate Static Files
         run: |
           hexo clean
           hexo generate
 
-      # 9️⃣ 配置 Git 信息
       - name: Configure Git
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
 
-      # 🔟 部署到 GitHub Pages（再由 Cloudflare 接管）
       - name: Deploy to GitHub Pages
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
