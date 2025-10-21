@@ -2,14 +2,22 @@ import os
 import xmlrpc.client
 import frontmatter
 from markdownify import markdownify as md
+from pathlib import Path
+from bs4 import BeautifulSoup
 
+# ─── 配置 ─────────────────────────────
 USER = os.getenv("CNBLOGS_USER")
 TOKEN = os.getenv("CNBLOGS_TOKEN")
+POST_DIR = Path("source/_posts")
+POST_DIR.mkdir(parents=True, exist_ok=True)
 
 if not USER or not TOKEN:
     raise ValueError("❌ Missing CNBLOGS_USER or CNBLOGS_TOKEN env variables")
 
+# 博客园 blogid 格式
 BLOG_ID = f"https://www.cnblogs.com/Scarab/"
+
+# 创建 ServerProxy
 server = xmlrpc.client.ServerProxy(
     f"https://rpc.cnblogs.com/metaweblog/Scarab",
     allow_none=True
@@ -17,29 +25,57 @@ server = xmlrpc.client.ServerProxy(
 
 print("🚀 Syncing from Cnblogs...")
 
-# ✅ blogid, username, password, numberOfPosts
+# ─── 获取最近50篇文章 ─────────────────
 posts = server.metaWeblog.getRecentPosts(BLOG_ID, USER, TOKEN, 50)
 
-os.makedirs("source/_posts", exist_ok=True)
-
 for post in posts:
-    title = post["title"]
-    html_content = post["description"]
-    markdown = md(html_content)
+    title = post.get("title", "untitled")
+    html_content = post.get("description", "")
 
-    fm = {
+    # 清理 HTML
+    soup = BeautifulSoup(html_content, "html.parser")
+    for tag in soup(["script", "style"]):
+        tag.decompose()
+    clean_html = str(soup)
+
+    # 转 Markdown
+    markdown_text = md(clean_html)
+
+    # 处理日期
+    date_obj = post.get("dateCreated")
+    if isinstance(date_obj, xmlrpc.client.DateTime):
+        # xmlrpc.client.DateTime.value 格式 "YYYYMMDDTHH:MM:SS"
+        date_str = date_obj.value
+        date_str = f"{date_str[:4]}-{date_str[4:6]}-{date_str[6:8]} {date_str[9:]}"
+    else:
+        date_str = str(date_obj)
+
+    # 分类与标签
+    categories = post.get("categories", [])
+    tags = post.get("mt_keywords", "").split(",") if post.get("mt_keywords") else []
+
+    # 生成安全文件名
+    safe_title = "".join(c if c.isalnum() or c in "-_ " else "-" for c in title).strip()
+    filename = POST_DIR / f"{safe_title}.md"
+
+    # 跳过已存在文章
+    if filename.exists():
+        print(f"⏩ Skipping existing post: {title}")
+        continue
+
+    # 构建 frontmatter
+    fm_post = frontmatter.Post(markdown_text)
+    fm_post.metadata = {
         "title": title,
-        "date": post["dateCreated"].isoformat(),
-        "categories": post.get("categories", []),
-        "tags": post.get("mt_keywords", "").split(",") if post.get("mt_keywords") else [],
+        "date": date_str,
+        "categories": categories or ["Cnblogs"],
+        "tags": tags,
     }
 
-    filename = f"source/_posts/{title.replace(' ', '-')}.md"
-    post_data = frontmatter.Post(markdown, **fm)
-
+    # 写入文件
     with open(filename, "w", encoding="utf-8") as f:
-        frontmatter.dump(post_data, f)
+        frontmatter.dump(fm_post, f)
 
     print(f"✅ Synced: {title}")
 
-print("🎉 All posts synced!")
+print("🎉 All posts synced successfully!")
