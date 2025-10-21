@@ -3,8 +3,8 @@ import xmlrpc.client
 import frontmatter
 from markdownify import markdownify as md
 
-USER = os.getenv("Scarab")
-TOKEN = os.getenv("79A65BB1FC15A4BCE6B55990EF8ED4DCCD7F36C549E56DAC7EDE09C40C9DD785")
+USER = os.getenv("CNBLOGS_USER")
+TOKEN = os.getenv("CNBLOGS_TOKEN")
 
 if not USER or not TOKEN:
     raise ValueError("❌ Missing CNBLOGS_USER or CNBLOGS_TOKEN env variables")
